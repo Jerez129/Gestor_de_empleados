@@ -9,7 +9,7 @@ namespace Gestor_de_empleados
 
     public partial class Forms : Form
     {
-
+        //TODO: Creación la lista
         private List<Empleado> empleados = new List<Empleado>();
         public Forms()
         {
@@ -20,7 +20,7 @@ namespace Gestor_de_empleados
         {
             cmbCargo.DropDownStyle = ComboBoxStyle.DropDownList;
 
-            // Definir las columnas del DataGridView
+            //TODO:  Definir las columnas del DataGridView, cantidad y nombres de las columnas
             dataGridView1.ColumnCount = 5;
             dataGridView1.Columns[0].Name = "NOMBRE";
             dataGridView1.Columns[1].Name = "APELLIDO";
@@ -28,6 +28,8 @@ namespace Gestor_de_empleados
             dataGridView1.Columns[3].Name = "SALARIO";
             dataGridView1.Columns[4].Name = "CARGO";
         }
+
+        //TODO: Bloquear teclas que no sean números o letras
 
         private void txtEdad_KeyPress(object sender, KeyPressEventArgs e)
         {
@@ -70,26 +72,13 @@ namespace Gestor_de_empleados
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
 
-        }
-
-      
-
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-
-
-
-        }
-
-
+        //TODO: Creación del botón guardar.
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             {
+
+                //TODO: Creacción de messagebox en caso de que se intente guardar sin colocar datos.
                 if (string.IsNullOrWhiteSpace(txtNombre.Text) ||
                  string.IsNullOrWhiteSpace(txtApellido.Text) ||
                  string.IsNullOrWhiteSpace(txtEdad.Text) ||
@@ -137,6 +126,7 @@ namespace Gestor_de_empleados
 
 
         }
+        //TODO: Creación del botón eliminar.
         private void btnEliminar_Click(object sender, EventArgs e)
         {
             /* if (dataGridView1.CurrentRow == null)
@@ -211,7 +201,20 @@ namespace Gestor_de_empleados
             this.Dispose();
         }
 
-     
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+
+
+
+        }
+
 
     }
 }
