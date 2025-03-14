@@ -1,13 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35527.113 d17.12
+VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_de_presentacion", "Gestor_de_empleados\Capa_de_presentacion.csproj", "{8521FA25-D993-41BD-AEE6-73C3B28030B2}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_de_datos", "Capa_de_datos\Capa_de_datos.csproj", "{3F0B4DCF-B83C-4CAD-95A8-DDCBF91D99D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Capa_de_modelo_de_negocios", "Capa_de_modelo_de_negocios\Capa_de_modelo_de_negocios.csproj", "{45C9C25F-6B8D-4AD8-B067-AB53996FF6CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,14 +15,6 @@ Global
 		{8521FA25-D993-41BD-AEE6-73C3B28030B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8521FA25-D993-41BD-AEE6-73C3B28030B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8521FA25-D993-41BD-AEE6-73C3B28030B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3F0B4DCF-B83C-4CAD-95A8-DDCBF91D99D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3F0B4DCF-B83C-4CAD-95A8-DDCBF91D99D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3F0B4DCF-B83C-4CAD-95A8-DDCBF91D99D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3F0B4DCF-B83C-4CAD-95A8-DDCBF91D99D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{45C9C25F-6B8D-4AD8-B067-AB53996FF6CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{45C9C25F-6B8D-4AD8-B067-AB53996FF6CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{45C9C25F-6B8D-4AD8-B067-AB53996FF6CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{45C9C25F-6B8D-4AD8-B067-AB53996FF6CD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
